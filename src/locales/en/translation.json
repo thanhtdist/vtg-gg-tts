@@ -1,0 +1,75 @@
+{
+  "webTitle": "Voice Tour Guide",
+  "startLiveBtn": "Start a Live Audio Session",
+  "joinBtn": "Join",
+  "loading": "Please wait...",
+  "microChecking": "Checking your microphone... Please wait.",
+  "noMicroMsg": "Your microphone is currently blocked. Please enable microphone access in your browser settings or on this site to proceed.",
+  "microSelectionLbl": "Select Input Microphone",
+  "startBtn":"Start",
+  "stopBtn":"Stop",
+  "chatSettingLbl": "Chat usage restrictions",
+  "chatSettingOptions": {
+    "allChat": "Everyone can chat",
+    "onlyGuideChat": "Only guide can chat",
+    "noChat": "No chat"
+  },
+  "generateQRCodeLbl": "Share QR Code",
+  "generateQRCodeOptions": {
+    "subGuide": "Sub-Guide",
+    "listener": "User"
+  },
+  "scanQRCodeTxt": {
+    "subGuide": "Scan me to join as Sub-Guide",
+    "listener": "Scan me to join as User"
+  },
+  "messagePlaceholder": "Type a message...",
+  "userNameDisplay": {
+    "mainGuide": "Guide",
+    "subGuide": "Sub-Guide",
+    "listener": "User",
+    "myself": "You"
+  },
+  "languagesLbl": "Language",
+  "voiceLanguageLbl": {
+    "speaking": "Select a language to speak",
+    "listening": "Select a language to listen"
+  },
+  "playVoiceLbl": "Play the voice file for",
+  "playVoiceOptions": {
+    "instruction": "Voice File 1",
+    "closingSpeech": "Voice File 2"
+  },
+  "uploading": "Uploading...",
+  "transcriptionTxt": "The host is speaking in ",
+  "translationTxt": "I am listening in",
+  "transcriptions": "Transcriptions",
+  "translations": "Translations",
+  "chatPopup": {
+    "title": "Chat",
+    "statuslbl": "Status"
+  },
+  "captureTranslations": "Capture",
+  "headerSettings": {
+    "qrCode": "QR Code",
+    "language": "Language Setting"
+  },
+  "pageTitles": {
+    "guide": "Guide",
+    "subGuide": "Sub Guide"
+  },
+  "startGuidePage": {
+    "tourNumber": "Tour Number",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "nextBtn": "Next ",
+    "courseName": "Course Name",
+    "tourConfirm" : {
+      "isTourSetting": "1.Is the tour setting right ?",
+      "customerScanQRCode": "2.Please make Customer scan the QR code on the next page",
+      "iUnderstand": "I understand"
+    },
+    "startBtn": "Start the guide",
+    "joinedGuide": "There are guides who have already joined"
+  }
+}

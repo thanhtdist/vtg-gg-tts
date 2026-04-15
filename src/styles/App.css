@@ -1,0 +1,87 @@
+/* Reset some default styles */
+html, body {
+  touch-action: pan-x pan-y;
+  --sticky-width: 84px; 
+}
+
+/* General styling */
+.App {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* padding-top: 10px; */
+  /* Adjust to prevent overlap with the sticky menu */
+}
+
+:root {
+  --page-color: black;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+a {
+  /* color: white; */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  li {
+    margin-bottom: 1rem;
+  }
+
+  a {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  nav {
+    padding: 0.5rem;
+  }
+
+  a {
+    font-size: 1rem;
+  }
+}
+
+/* Dropdown Styling */
+h3 {
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+select {
+  display: block;
+  margin: 0 auto 10px auto;
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.select-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

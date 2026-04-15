@@ -1,0 +1,224 @@
+.chat-container {
+    /* border: 1px solid #ccc; */
+    padding: 10px;
+    margin-top: 20px;
+    max-width: 100%;
+    width: 100%;
+    height: 80%;
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+    position: relative;
+}
+
+.chat-window {
+    height: 80%; /* Increased height for better usability */
+    overflow-y: auto; /* Allow scrolling */
+    margin-bottom: 10px; /* Space between messages and input */
+    display: flex;
+    flex-direction: column;
+}
+
+.message {
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column; /* Stack the two lines vertically */
+}
+
+/* .message-header { */
+    /* display: flex; */
+    /* align-items: center;  */
+    /* justify-content: end; */
+    /* Align icon and name on the same line */
+    /* margin-bottom: 4px;  */
+    /* Add some space between the two lines */
+/* } */
+
+.message-header strong {
+    margin-left: 8px; /* Space between icon and name */
+}
+
+.message-content {
+    display: flex;
+    justify-content: space-between; /* Push the timestamp to the right */
+    font-size: 0.9em; /* Slightly smaller text for message content */
+    max-width: 70%;
+    /* width: auto; */
+}
+
+.message-content .timestamp {
+    font-size: 0.8em;
+    color: #888;
+    margin-left: 10px;
+}
+
+.my-message {
+    text-align: right;
+    background-color: #b3e5fc;
+    border-radius: 5px;
+    padding: 8px;
+    justify-content: end;
+}
+
+.other-message {
+    text-align: left;
+    background-color: #e1bee7;
+    border-radius: 5px;
+    padding: 8px;
+    align-self: flex-start;
+}
+
+.message-content .timestamp {
+    font-size: 0.8em;
+    color: #888;
+    margin-left: 10px;
+}
+
+.my-message {
+    text-align: right;
+    background-color: rgb(221, 205, 205);
+    align-self: flex-end;
+}
+
+.other-message {
+    text-align: left;
+    background-color: #e1bee7;
+}
+
+.timestamp {
+    font-size: 0.8em;
+    color: #888;
+    align-content: space-evenly;
+    margin: 0px 5px;
+}
+
+.chat-input {
+    display: flex;
+    /* flex-direction: column;  */
+    /* Stack items vertically */
+    align-items: stretch; /* Make children take full width */
+    gap: 10px;
+    width: 90%; /* Ensure it takes full width of the container */
+    position: absolute;
+    bottom: 0;
+    /* padding-bottom: 5%; */
+    margin-bottom:15px; 
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    padding: 8px;
+    background-color: #fff;
+    max-width: 94%;
+}
+
+.input-like-div {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.input-like-div input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+}
+
+.file-attachment {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    font-size: 0.9rem;
+    width: 90%;
+}
+
+.file-name {
+    flex-grow: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.clear-file-icon {
+    cursor: pointer;
+    margin-left: 8px;
+    color: #d9534f;
+}
+
+.send-button {
+    /* padding: 10px 12px; */
+    /* border: none; */
+    /* color: white; */
+    /* cursor: pointer; */
+    /* border-radius: 5px; */
+    /* font-size: 1rem; */
+    /* width: 100%;  */
+    /* Full width */
+    /* max-width: 100%; */
+    /* color: red; */
+    display: contents;
+    justify-content: space-between;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .input-container {
+        padding: 8px; /* Maintain comfortable padding for tap targets */
+        font-size: 1rem;
+    }
+
+    .send-button {
+        padding: 12px; /* Slightly larger padding for easier tap targeting on small screens */
+        font-size: 1rem;
+    }
+}
+.image-person-chat{
+    width: 24px;
+    height: 24px;
+    margin-left: 5px;
+}
+.myself-chat{
+ display: flex;
+    /* align-items: center;  */
+    justify-content: end;
+    /* Align icon and name on the same line */
+    margin-bottom: 4px; 
+    /* Add some space between the two lines */
+}
+.myself-chat .timestamp{
+    order: 1;
+}
+.myself-chat .image-person-chat{
+    order: 3
+}
+.myself-chat strong{
+    order: 2;
+}
+.sender-chat{
+     display: flex;
+    /* align-items: center;  */
+    justify-content: start;
+    /* Align icon and name on the same line */
+    margin-bottom: 4px; 
+    /* Add some space between the two lines */
+}
+.sender-chat .image-person-chat{
+    order: 1;
+}
+.sender-chat strong{
+    order: 2;
+}
+.sender-chat .timestamp{
+    order: 3;
+}
+.text-message{
+    text-align: left;
+}

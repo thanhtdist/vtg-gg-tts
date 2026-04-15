@@ -1,0 +1,27 @@
+.chat-setting-container {
+    margin-top: 20px;
+    /* justify-self: center; */
+}
+
+.btn-chat-setting {
+    display: flex;
+    /* justify-self: center; */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.btn-confirm {
+    background-color: #C60226;
+    border: #C60226;
+    border-radius: 25px;
+    color: #FAFAFA;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.selected{
+    display: flex;
+    justify-content: space-evenly;
+}

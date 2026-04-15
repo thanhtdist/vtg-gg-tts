@@ -1,0 +1,75 @@
+{
+  "webTitle": "音声ツアーガイド",
+  "startLiveBtn": "音声ガイドをスタート",
+  "joinBtn": "参加する",
+  "loading": "お待ちください。。。",
+  "microChecking": "マイクを確認しています...しばらくお待ちください。",
+  "noMicroMsg": "現在、マイクがブロックされています。続行するには、ブラウザの設定またはこのサイトでマイクのアクセスを有効にし下さい。",
+  "microSelectionLbl": "音声入力(マイク)を選択",
+  "startBtn":"スタート",
+  "stopBtn":"停止",
+  "chatSettingLbl": "チャットの制限",
+  "chatSettingOptions": {
+    "allChat": "誰でもチャット可能",
+    "onlyGuideChat": "ガイドのみチャット可能",
+    "noChat": "チャット無効"
+  },
+  "generateQRCodeLbl": "QRコードを共有",
+  "generateQRCodeOptions": {
+    "subGuide": "サブガイド用QRコード",
+    "listener": "ユーザー用QRコード"
+  },
+  "scanQRCodeTxt": {
+    "subGuide": "QRコードをサブガイドのスマートフォンで<br>読み取ってください",
+    "listener": "QRコードをリスナーのスマートフォンで<br>読み取ってください"
+  },
+  "messagePlaceholder": "メッセージを入力してください...",
+  "userNameDisplay": {
+    "mainGuide": "ガイド",
+    "subGuide": "サブガイド",
+    "listener": "ユーザー",
+    "myself": "あなた"
+  },
+  "languagesLbl": "言語選択",
+  "voiceLanguageLbl": {
+    "speaking": "話す言語を選択してください",
+    "listening": "聴く言語を選択"
+  },
+  "playVoiceLbl": "再生する音声ファイル",
+  "playVoiceOptions": {
+    "instruction": "音声ファイル1",
+    "closingSpeech": "音声ファイル2"
+  },
+  "uploading": "アップロード中...",
+  "transcriptionTxt": "で話しています",
+  "translationTxt": "で聴いています",
+  "transcriptions": "文字起こし",
+  "translations": "翻訳",
+  "chatPopup": {
+    "title": "チャット",
+    "statuslbl": "ステータス"
+  },
+  "captureTranslations": "キャプチャー",
+  "headerSettings": {
+    "qrCode": "お客様用<br>QRコードを表示",
+    "language": "言語設定"
+  },
+  "pageTitles": {
+    "guide": "ガイド専用ページ",
+    "subGuide": "サブガイド専用ページ"
+  },
+  "startGuidePage": {
+    "tourNumber": "ツアー番号",
+    "startDate": "出発日",
+    "endDate": "帰着日",
+    "nextBtn": "表示 ",
+    "courseName": "コース名",
+    "tourConfirm" : {
+      "isTourSetting": "1.上記内容で間違いありませんか?",
+      "customerScanQRCode": "2.ガイド画面に入ったらお客様にQRコードを読ませてください。",
+      "iUnderstand": "上記を理解しました。"
+    },
+    "startBtn": "ガイドを開始する",
+    "joinedGuide": "現在、既に参加しているガイドがいます"
+  }
+}
