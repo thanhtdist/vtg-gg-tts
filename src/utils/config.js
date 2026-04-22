@@ -24,7 +24,7 @@ const Config = {
      * Application URLs and Paths
      */
     // Base URL for API endpoints
-    baseURL: 'https://main.d392h4ccc80hkj.amplifyapp.com',
+    baseURL: process.env.BASE_URL,
     // Base path for the application
     subPath: '',
     // Path names for different user roles
