@@ -40,7 +40,7 @@ const Config = {
     },
 
     // Websocket URL for real-time translate audio
-    webSocketURL: 'wss://tnmrusql0d.execute-api.us-east-1.amazonaws.com/prod',
+    webSocketURL: 'wss://whqqopbw33.execute-api.ap-northeast-1.amazonaws.com/prod',
     
     /**
      * Storage and Logging Configuration
